@@ -1,3 +1,15 @@
+Памятка для создания и пуша на гит репозиторий
+
+echo "# Rep" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Nick/Rep.git
+git push -u origin main
+
+Памятка для пуша на гит репозиторий
+
 git remote add origin https://github.com/Nick/Rep.git
 git branch -M main
 git push -u origin main
