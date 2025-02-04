@@ -1,4 +1,15 @@
+
 Памятка для создания и пуша на гит репозиторий
+
+git config --global user.name "Your Name"
+git config --global user.email "your_email@whatever.com"
+git config --global init.defaultBranch main
+//
+не обязательные:
+git config --global core.autocrlf true 
+git config --global core.safecrlf warn
+//
+git init
 
 echo "# Rep" >> README.md
 git init
